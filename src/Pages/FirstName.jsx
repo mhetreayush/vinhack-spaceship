@@ -8,7 +8,7 @@ const FirstName = () => {
   const [tempName, setTempName] = useState("");
   const navigateNext = () => {
     setUserName(tempName);
-    navigate("vinhack-spaceship/interests");
+    navigate("/interests");
   };
   return (
     <Wrapper title={"First Name"} bgColor="bg-blue-100">

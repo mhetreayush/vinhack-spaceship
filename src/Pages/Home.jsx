@@ -17,7 +17,7 @@ const Home = () => {
   const steps = ["First Name", "Your interests", "Add Photos"];
   const navigate = useNavigate();
   const startProfile = () => {
-    navigate("vinhack-spaceship/name");
+    navigate("/name");
   };
   return (
     <div className="bg-orange-200 h-screen flex w-full items-center justify-center flex-col gap-y-10">

@@ -7,7 +7,7 @@ const Photos = () => {
   const { userName, setUserName } = NowUserData();
   const [tempName, setTempName] = useState("");
   const navigateNext = () => {
-    navigate("vinhack-spaceship/find");
+    navigate("/find");
   };
   const [photos, setPhotos] = useState([]);
   return (
