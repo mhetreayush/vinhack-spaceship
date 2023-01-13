@@ -4,9 +4,10 @@ import { useNavigate } from "react-router-dom";
 import Wrapper from "../Components/Wrapper";
 const Interests = () => {
   const navigate = useNavigate();
-  const { userName, setUserName } = NowUserData();
+  const { userName, setUserName, setInterests } = NowUserData();
   const [tempName, setTempName] = useState("");
   const navigateNext = () => {
+    setInterests(myInterests);
     navigate("/photos");
   };
   const [myInterests, setMyInterests] = useState([]);

@@ -1,9 +1,11 @@
 import moment from "moment/moment";
 import BgImage from "../assets/profileBg.png";
+import { NowUserData } from "../Contexts/UserContext";
+import { UserData } from "../Contexts/UsersDataContext";
 const robohashAvatars = require("robohash-avatars");
 const UserPage = ({ data }) => {
   const { _id, birthday, firstName, lastName, sex, interests } = data;
-
+  const { interests: userInterests } = NowUserData();
   return (
     <div
       className="h-[75vh] rounded-md flex flex-col justify-end py-4 text-white font-semibold text-2xl"
@@ -19,7 +21,8 @@ const UserPage = ({ data }) => {
         </h1>
         <p>{moment(birthday).format("MMM Do YY")}</p>
         <p>{sex}</p>
-        <p>{interests.join(" ")}</p>
+        <p>My interests: {userInterests?.join(" ")}</p>
+        <p>Their interests: {interests.join(" ")}</p>
       </div>
     </div>
   );

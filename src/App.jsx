@@ -19,11 +19,14 @@ const App = () => {
         <UserContextProvider>
           <PhoneWrapper>
             <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/name" element={<FirstName />} />
-              <Route path="/interests" element={<Interests />} />
-              <Route path="/photos" element={<Photos />} />
-              <Route path="/find" element={<Find />} />
+              <Route path="vinhack-spaceship/" element={<Home />} />
+              <Route path="vinhack-spaceship/name" element={<FirstName />} />
+              <Route
+                path="vinhack-spaceship/interests"
+                element={<Interests />}
+              />
+              <Route path="vinhack-spaceship/photos" element={<Photos />} />
+              <Route path="vinhack-spaceship/find" element={<Find />} />
             </Routes>
           </PhoneWrapper>
         </UserContextProvider>

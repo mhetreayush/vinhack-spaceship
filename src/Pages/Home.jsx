@@ -20,9 +20,14 @@ const Home = () => {
     navigate("/name");
   };
   return (
-    <div>
-      Start Creating Your Profile
-      <button onClick={startProfile}>Start</button>
+    <div className="bg-orange-200 h-screen flex w-full items-center justify-center flex-col gap-y-10">
+      <div>Start Creating Your Profile</div>
+      <button
+        className="bg-purple-300 rounded-md p-4 w-fit"
+        onClick={startProfile}
+      >
+        Start
+      </button>
     </div>
   );
 };
