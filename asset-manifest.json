@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/vinhack-spaceship/static/css/main.37c34d6e.css",
-    "main.js": "/vinhack-spaceship/static/js/main.0f6f73a6.js",
+    "main.css": "/vinhack-spaceship/static/css/main.bb0a2585.css",
+    "main.js": "/vinhack-spaceship/static/js/main.d0276046.js",
     "static/media/profileBg.png": "/vinhack-spaceship/static/media/profileBg.8f7c5cf10593090a3f1e.png",
     "static/media/first-name.png": "/vinhack-spaceship/static/media/first-name.e08a20bc061bb6793697.png",
     "static/media/add-photos.png": "/vinhack-spaceship/static/media/add-photos.21f2be3940b75638e4c9.png",
     "static/media/your-interests.png": "/vinhack-spaceship/static/media/your-interests.2bdd37950701f8b7937f.png",
     "index.html": "/vinhack-spaceship/index.html",
-    "main.37c34d6e.css.map": "/vinhack-spaceship/static/css/main.37c34d6e.css.map",
-    "main.0f6f73a6.js.map": "/vinhack-spaceship/static/js/main.0f6f73a6.js.map"
+    "main.bb0a2585.css.map": "/vinhack-spaceship/static/css/main.bb0a2585.css.map",
+    "main.d0276046.js.map": "/vinhack-spaceship/static/js/main.d0276046.js.map"
   },
   "entrypoints": [
-    "static/css/main.37c34d6e.css",
-    "static/js/main.0f6f73a6.js"
+    "static/css/main.bb0a2585.css",
+    "static/js/main.d0276046.js"
   ]
 }
