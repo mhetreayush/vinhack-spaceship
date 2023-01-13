@@ -8,7 +8,7 @@ const Interests = () => {
   const [tempName, setTempName] = useState("");
   const navigateNext = () => {
     setInterests(myInterests);
-    navigate("/photos");
+    navigate("vinhack-spaceship/photos");
   };
   const [myInterests, setMyInterests] = useState([]);
   const interests = [
